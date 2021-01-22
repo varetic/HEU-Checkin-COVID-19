@@ -16,7 +16,6 @@ jobs:
         SECRET_QMSG1: ${{ secrets.SECRET_QMSG1 }}
       run: |
         echo "[info] Checkin Success!" >> tmp
-        curl -d "msg=${SECRET_ID}$(if [[ $(tail -n 3 tmp) =~ "Success!" ]]; then echo "打卡成功"; else echo "打卡失败"; fi)\
-        " \
+        curl -d "msg=${SECRET_ID}$(if [[ $(tail -n 3 tmp) =~ "Success!" ]]; then echo "打卡成功"; else echo "打卡失败"; fi)" \
         https://qmsg.zendee.cn/send/${SECRET_QMSG1}
         rm tmp
