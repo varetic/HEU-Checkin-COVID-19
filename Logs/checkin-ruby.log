@@ -514,3 +514,15 @@
 [info] Notification Sent at 2021-02-11 08:12:17 Thursday
 =========================
 
+=========================
+[debug] Login CAS Success...
+[debug] Form Loaded...
+[debug] Checkbox Checked...
+[debug] Form Submitted...
+[debug] 平安行动:填报健康信息(已完成)
+[info] Checkin Success!
+[info] End at 2021-02-12 07:05:59 +0800.
+=========================
+[info] Notification Sent at 2021-02-12 07:06:00 Friday
+=========================
+
